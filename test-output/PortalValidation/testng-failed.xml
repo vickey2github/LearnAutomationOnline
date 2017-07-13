@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PortalValidation]">
+  <test name="SmokeScenario(failed)">
+    <classes>
+      <class name="TestCases.verifylogin">
+        <methods>
+          <include name="openfbbrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.verifylogin -->
+      <class name="TestCases.CreatingFBAccount">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- TestCases.CreatingFBAccount -->
+      <class name="TestCases.verifylogin2">
+        <methods>
+          <include name="teardown"/>
+          <include name="openfbbrowser"/>
+          <include name="verifyfbpage"/>
+        </methods>
+      </class> <!-- TestCases.verifylogin2 -->
+    </classes>
+  </test> <!-- SmokeScenario(failed) -->
+</suite> <!-- Failed suite [PortalValidation] -->

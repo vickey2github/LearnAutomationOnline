@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48393" started-at="2017-07-12T21:38:44Z" finished-at="2017-07-12T21:39:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48393" started-at="2017-07-12T21:38:44Z" finished-at="2017-07-12T21:39:33Z">
+      <class name="TestCases.verifylogin2">
+        <test-method status="PASS" signature="openfbbrowser()[pri:0, instance:TestCases.verifylogin2@5b275dab]" name="openfbbrowser" is-config="true" duration-ms="28762" started-at="2017-07-12T16:38:44Z" finished-at="2017-07-12T16:39:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openfbbrowser -->
+        <test-method status="PASS" signature="verifyfbpage()[pri:0, instance:TestCases.verifylogin2@5b275dab]" name="verifyfbpage" duration-ms="15635" started-at="2017-07-12T16:39:13Z" finished-at="2017-07-12T16:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfbpage -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:TestCases.verifylogin2@5b275dab]" name="teardown" is-config="true" duration-ms="3972" started-at="2017-07-12T16:39:29Z" finished-at="2017-07-12T16:39:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfbpage status=SUCCESS method=verifylogin2.verifyfbpage()[pri:0, instance:TestCases.verifylogin2@5b275dab] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.verifylogin2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
